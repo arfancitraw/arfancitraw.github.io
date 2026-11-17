@@ -1,75 +1,29 @@
-# Nuxt Minimal Starter
+# Arfan Citra Wibowo — Full Stack Developer Portfolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Personal developer portfolio website built with **Nuxt 3 (SSG)**, **TypeScript**, and **Tailwind CSS**.
 
-## Setup
+## Features
+- **Architectural Editorial Design**: Two-column layout with hero portrait and live theme toggle.
+- **Light & Dark Theme**: Accessible WCAG AAA contrast in both modes with persistent local storage.
+- **Verified Metrics**: High-performance Core Web Vitals, sub-second LCP, and zero CLS.
+- **Responsive Layout**: Designed for mobile (375px+), tablet, and desktop with accessible drawer navigation.
+- **Static Site Generation**: Zero runtime server overhead, pre-rendered static HTML/CSS/JS.
 
-Make sure to install dependencies:
+## Commands
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Run local development server (http://localhost:3000)
 npm run dev
 
-# pnpm
-pnpm dev
+# Generate static site (.output/public)
+npm run generate
 
-# yarn
-yarn dev
+# Deploy directly to GitHub Pages (gh-pages branch)
+npm run deploy
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
+# Preview static build locally
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
